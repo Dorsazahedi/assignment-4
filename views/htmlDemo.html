@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/theme.css"> 
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/htmlDemo">HTML Demo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/addStudent">Add Student</a>
+                </li>
+                <!-- Add other navigation items as needed -->
+            </ul>
+        </div>
+    </nav>
+
+    <header class="container text-center mt-5">
+
+        <h1>
+            Playground
+        </h1>
+        <p>
+            Introduction to tables, images, lists, audio, and video.
+        </p>
+    </header>
+
+
+    <section class="container mt-5">
+        <h2>
+            Tables
+        </h2>
+        <table class="table table-bordered">
+            <caption>
+                Sample 1
+            </caption>
+            <thead>
+                <tr>
+                    <th>Header 1</th>
+                    <th>Header 2</th>
+                    <th>Header 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Row 1, Col 1</td>
+                    <td rowspan="2">Rowspan Cell</td>
+                    <td>Row 1, Col 3</td>
+                </tr>
+                <tr>
+                    <td>Row 2, Col 1</td>
+                    <td>Row 2, Col 3</td>
+                </tr>
+                <tr>
+                    <td colspan="3">Colspan Cell</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Table Footer</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <table class="table table-bordered mt-4">
+            <caption>
+                Sample 2
+            </caption>
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Description</th>
+                    <th>Example</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Category 1</td>
+                    <td>Text Content</td>
+                    <td>Example 1</td>
+                </tr>
+                <tr>
+                    <td>Category 2</td>
+                    <td>Text Content</td>
+                    <td>Example 2</td>
+                </tr>
+                <tr>
+                    <td>Category 3</td>
+                    <td>Text Content</td>
+                    <td>Example 3</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">End of Table</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <p>
+            This is a practice of how to create simple tables in html.
+        </p>
+    </section>
+
+
+    <section class="container mt-5">
+        <h2>
+            Lists
+        </h2>
+        <ol>
+            <li>Ordered  Item 1</li>
+            <li>Ordered Item 2</li>
+            <li>Ordered Item 3
+                <ul>
+                    <li>Unordered Item 1</li>
+                    <li>Unordered Item 2</li>
+                    <li>Unordered Item 3</li>
+                </ul>
+            </li>
+            <li>Ordered Item 4</li>
+            <li>Ordered Item 5</li>
+        </ol>
+
+        <p>
+            This part is a practice of how to create lists in html
+        </p>
+    </section>
+
+
+    <section class="container mt-5">
+        <h2>
+            Images
+        </h2>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Snowboarder_in_halfpipe.jpg" alt="Snowboarder" class="img-fluid">
+        <img src="https://images.unsplash.com/photo-1581938165093-050aeb5ef218?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Transparent Image" class="img-fluid">
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Flogos-world.net%2Fwikipedia-logo%2F&psig=AOvVaw028ZPB6WH2RrIMaoPswe4t&ust=1728875404635000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJDexvSwiokDFQAAAAAdAAAAABAE" alt="Tartan" class="img-fluid">
+
+        <p>
+            Now that we are done with tables and lists, we try working with images.
+        </p>
+    </section>
+
+
+    <section class="container mt-5">
+        <h2>
+            Audio
+        </h2>
+        <audio controls>
+            <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-audio.mp3" type="audio/mpeg">
+            <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-audio.ogg" type="audio/ogg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <p>
+            After images, we try working with audio files on html.
+        </p>
+    </section>
+
+
+    <section class="container mt-5 mb-5">
+        <h2>
+            Video
+        </h2>
+        <video controls width="600">
+            <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-video.mp4" type="video/mp4">
+            <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-video.ogg" type="video/ogg">
+            <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-video.webm" type="video/webm">
+            Your browser does not support the video element.
+        </video>
+
+        <p>
+            This last section focuses on videos on html.
+        </p>
+    </section>
+
+</body>
+</html>

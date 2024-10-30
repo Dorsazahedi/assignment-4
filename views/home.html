@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - HTML5 and Express Routing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/theme.css"> 
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/htmlDemo">HTML Demo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/addStudent">Add Student</a>
+                </li>
+                <!-- Add other navigation items as needed -->
+            </ul>
+        </div>
+    </nav>
+    <header class="container text-center mt-5">
+
+        <h1>Welcome to my website!</h1>
+        <p>I will be demonstrating HTML5 principles and techniques.</p>
+
+    </header>
+
+    <section class="container mt-5">
+        <h2>Overview</h2>
+
+        <p>This site consists of three static views and five dynamic routes:</p>
+        <ul>
+
+            <li><a href="/">Home</a> - An overview of the site and HTML5 introduction.</li>
+            <li><a href="/about">About</a> - A page with details about the creator.</li>
+            <li><a href="/htmlDemo">HTML Demo</a> - A demo page.</li>
+            <li><a href="/student/2">Single Student by Student Number</a> - View details of a specific student (Student ID 2).</li>
+            <li><a href="/tas">All Managers</a> - All managers.</li>
+            <li><a href="/students">All Students</a> - List of all students.</li>
+            <li><a href="/courses">All Courses</a> - List of all courses.</li>
+           
+            <li><a href="/students?course=3">Students by Course</a> - View students from a specific course (e.g., Course ID 3).</li>
+
+        </ul>
+    </section>
+
+    <section class="container mt-5">
+
+        <h2>Introduction to HTML5</h2>
+
+        <p>HTML5 is the latest version of Hypertext Markup Language, the standard for structuring and presenting content on the web. This website showcases HTML5 features, such as semantic elements, multimedia integration (audio, video), and responsive design through Bootstrap.</p>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+body, html {
+    background: linear-gradient(to top, #e1d0f3, #7949ad); 
+    font-family: 'Handlee', cursive;
+    color: white;
+    overflow: auto;
+    height: 100%;
+    margin: 20px;
+}
+
+.navbar {
+    background: #ffffff; /* Solid background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+
+.navbar-brand {
+    font-family: 'Handlee', cursive; /* Use the Handlee font */
+    background: #ffffff; /* Solid background color */
+    overflow: auto;
+    height: 100%;
+    margin: 10px; 
+}
+
+/* Style for primary button */
+.btn-primary {
+    background-color: #007bff; /* Solid color */
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker on hover */
+}
